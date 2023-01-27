@@ -4,8 +4,9 @@
 h1{
     margin-top: 20px;
     font-size: 3em;
-    text-align: left;
+    text-align: center;
     font-weight: bold;
+    float: auto;
 }
 body img{
     width: 300px;
@@ -15,17 +16,20 @@ body img{
 #woord {
     font-size: 2em;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
 }
 #woord li {
     display: inline-block;
     padding: 3px;
 }
+p {
+    text-align: center;
+}
 #alfabet_knoppen{
     width: 1000px;
     margin: 0px auto;
     margin-top: 150px;
-    float: left;
+    float: center;
 }
 button:hover {
     background-color: rgb(6, 164, 204);
